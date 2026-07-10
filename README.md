@@ -55,3 +55,9 @@ All parameters are configurable via `config.json`:
 ```
 
 Swagger docs available at `http://localhost:8000/docs`
+
+## Roadmap
+
+This project is likely to evolve. Future improvements may include:
+- [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) scoring
+- [BM25](https://en.wikipedia.org/wiki/Okapi_BM25) ranking algorithm
