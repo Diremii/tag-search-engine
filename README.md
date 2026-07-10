@@ -29,6 +29,17 @@ docker build -t tag-search-engine .
 docker run -p 8000:8000 tag-search-engine
 ```
 
+## Docker Compose
+
+```yaml
+services:
+  search-engine:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+```
+
 ## Configuration
 
 All parameters are configurable via `config.json`:
